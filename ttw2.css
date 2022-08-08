@@ -65,3 +65,36 @@
     height: 200px; */
     width: 100%;
 }
+
+.cat {
+    background-image: url("img/ttwCat0.jpg");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /* border-radius: 100%; */
+}
+/* .cat {
+    position: relative;
+    width: 100px;
+    height: 90px;
+  }
+  .cat:before,
+  .cat:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red; 
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  .cat:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  } */

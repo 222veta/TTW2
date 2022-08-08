@@ -48,9 +48,28 @@ function tick() {
             }
         }
     }
-    if(  sec>2){
-        // divCat.innerHTML = "<img src='img/ttwCat1'";
+    if( sec>2 ){
+        divCat.style.backgroundImage = 'url("img/ttwCat1.jpeg")';
     }
+    if(sec>5){
+        divCat.style.backgroundImage = 'url("img/ttwCat2.jpg")';
+    }
+    if(sec>6){
+        divCat.style.backgroundImage = 'url("img/ttwCat3.jpg")';
+    }
+    if(sec>8){
+        divCat.style.backgroundImage = 'url("img/ttwCat4.jpg")';
+    }
+    if(sec>10){
+        divCat.style.backgroundImage = 'url("img/ttwCat5.jpg")';
+    }
+    if(sec>12){
+        divCat.style.backgroundImage = 'url("img/ttwCat6.jpg")';
+    }
+
+
+
+
 }
 min = 0;
 hour = 0;
@@ -65,10 +84,8 @@ function init() {
 buttonStart.addEventListener('click', () => {
 
     init();
-
-
-
 });
+
 buttonStop.addEventListener('click', () => {
     clearInterval(t);
 });
